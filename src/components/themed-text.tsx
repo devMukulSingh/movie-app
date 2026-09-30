@@ -25,6 +25,7 @@ export function ThemedText({ style, type = 'default', themeColor, ...rest }: The
         type === 'code' && styles.code,
         style,
       ]}
+      className='text-text'
       {...rest}
     />
   );
