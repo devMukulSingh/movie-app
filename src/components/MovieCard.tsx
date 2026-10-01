@@ -1,15 +1,15 @@
-import { Text, TouchableOpacity } from 'react-native'
 import { Movie } from '@/types'
-import { Link } from 'expo-router'
 import { Image } from 'expo-image'
+import { Link } from 'expo-router'
 import { cssInterop } from 'nativewind'
+import { Text, TouchableOpacity } from 'react-native'
 
 cssInterop(Image, { className: 'style' })
 
 const MovieCard = ({ title, id, poster_path }: Movie) => {
     return (
-        <Link href={`/movies/${id}`} asChild className="flex-1 p-2">
-            <TouchableOpacity className='w-[30%]'>
+        <Link href={`/movies/${id}`} asChild>
+            <TouchableOpacity className='flex-1 p-2'>
                 <Image
                     contentFit='cover'
                     className='h-52 w-full rounded-md'

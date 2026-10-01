@@ -11,6 +11,7 @@ module.exports = {
         element: 'var(--color-element)',
         selected: 'var(--color-selected)',
         secondary: 'var(--color-secondary)',
+        backgroundSecondary: 'var(--color-backgroundSecondary)',
       },
     },
   },

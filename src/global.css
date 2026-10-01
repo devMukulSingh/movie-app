@@ -9,6 +9,7 @@
     --color-element: #F0F0F3;
     --color-selected: #E0E1E6;
     --color-secondary: #60646C;
+    --color-backgroundSecondary: #f2f2f2;
   }
 
   @media (prefers-color-scheme: dark) {
@@ -18,6 +19,7 @@
       --color-element: #212225;
       --color-selected: #2E3135;
       --color-secondary: #B0B4BA;
+      --color-backgroundSecondary: #212225;
     }
   }
 
@@ -27,5 +29,6 @@
     --color-element: #212225;
     --color-selected: #2E3135;
     --color-secondary: #B0B4BA;
+    --color-backgroundSecondary: #212225;
   }
 }
